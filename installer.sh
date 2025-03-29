@@ -56,7 +56,7 @@ fi
 
 if [ "$choice" -eq 2 ]; then
     cd /tmp || exit 1
-    git clone https://github.com/Snowy-Fluffy/zapret.cfgs.git | $LOG_CMD
+    git clone https://github.com/FDGRPNekko/zapret.cfgs.git | $LOG_CMD
     cd /tmp/zapret.cfgs || exit 1
     tar -xf binaries.tar
 fi
